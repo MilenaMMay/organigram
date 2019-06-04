@@ -3,6 +3,9 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "organigram": "./scripts/organigram"
+  },
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
