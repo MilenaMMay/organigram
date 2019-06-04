@@ -1083,9 +1083,9 @@
     "@types/yargs" "^12.0.9"
 
 "@milenammay/organigram@^1.0.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@milenammay/organigram/-/organigram-1.1.0.tgz#058593e2ef1bd672208fd276c879ac9d1c56293c"
-  integrity sha512-q8LAM7qca6+ESVuPg6CxjQuCXHPJzeEGggcmtccGQxRKK0ymeErW5b6O7UtSxo42F9hzXLv3R3bKWPjDifHoNg==
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@milenammay/organigram/-/organigram-1.2.0.tgz#dca5f83bfeb6682ea0c2b49fdd2fbca41d724a2e"
+  integrity sha512-zy6tgZeYamXp/B0bFeF34QxmP1igE24pGL9W83xwvC/HEsSOKSmLKfC5km2EU4vrlBCDIWIbzqNMiGb1dfqhbQ==
   dependencies:
     react "^16.8.6"
     react-dom "^16.8.6"
