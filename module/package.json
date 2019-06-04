@@ -9,7 +9,8 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "serve": "^11.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -41,6 +42,5 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/MilenaMMay/organigram/issues"
-  },
-  "homepage": "https://github.com/MilenaMMay/organigram#readme"
+  }
 }
