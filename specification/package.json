@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "node test.js"
+  },
   "dependencies": {
     "@milenammay/organigram": "^1.0.0"
   }
