@@ -5,9 +5,9 @@
   "author": "MilenaMMay",
   "license": "MIT",
   "repository": "MilenaMMay/organigram",
-  "main": "dist/index.js",
-  "module": "dist/index.es.js",
-  "jsnext:main": "dist/index.es.js",
+  "main": "dist/Organigram.js",
+  "module": "dist/Organigram.es.js",
+  "jsnext:main": "dist/Organigram.es.js",
   "engines": {
     "node": ">=8",
     "npm": ">=5"
@@ -48,6 +48,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "^1.1.4",
+    "react-test-renderer": "^16.8.6",
     "rollup": "^0.64.1",
     "rollup-plugin-babel": "^3.0.7",
     "rollup-plugin-commonjs": "^9.1.3",

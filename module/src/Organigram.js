@@ -18,7 +18,7 @@ export default class Organigram extends Component {
     return (
       <div>
         {data.views.map((view) =>
-          <div className={styles.test}>
+          <div className={styles.test} key={view.name}>
             {view.name}
           </div>
           )}

@@ -9,7 +9,7 @@ import svgr from '@svgr/rollup'
 import pkg from './package.json'
 
 export default {
-  input: 'src/index.js',
+  input: 'src/Organigram.js',
   output: [
     {
       file: pkg.main,
