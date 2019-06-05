@@ -3,19 +3,25 @@ import PropTypes from 'prop-types'
 
 import styles from './styles.css'
 
-export default class ExampleComponent extends Component {
+export default class Organigram extends Component {
   static propTypes = {
-    text: PropTypes.string
+    text: PropTypes.string,
+    data: PropTypes.object,
   }
 
   render() {
     const {
-      text
+      text,
+      data,
     } = this.props
 
     return (
-      <div className={styles.test}>
-        Example Component: {text}
+      <div>
+        {data.views.map((view) =>
+          <div className={styles.test}>
+            {view.name}
+          </div>
+          )}
       </div>
     )
   }

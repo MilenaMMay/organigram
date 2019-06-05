@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import './index.css'
-import App from './App'
+import Organigram from '@milenammay/organigram'
+import data from './data/data'
 
-ReactDOM.render(<App />, document.getElementById('root'))
+ReactDOM.render(<Organigram data={data} />, document.getElementById('root'))

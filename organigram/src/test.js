@@ -1,7 +1,7 @@
-import ExampleComponent from './'
+import Organigram from './'
 
-describe('ExampleComponent', () => {
+describe('Organigram', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(Organigram).toBeTruthy()
   })
 })

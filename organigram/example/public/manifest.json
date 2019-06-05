@@ -1,6 +1,6 @@
 {
-  "short_name": "@milenammay/organigram",
-  "name": "@milenammay/organigram",
+  "short_name": "@milenammay/organigram/example",
+  "name": "@milenammay/organigram/example",
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",
