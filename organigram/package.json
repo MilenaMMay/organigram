@@ -1,6 +1,6 @@
 {
   "name": "@milenammay/organigram",
-  "version": "1.0.0",
+  "version": "1.4.0",
   "description": "",
   "author": "MilenaMMay",
   "license": "MIT",
@@ -19,7 +19,8 @@
     "start": "rollup -c -w",
     "prepare": "yarn run build",
     "predeploy": "cd example && yarn install && yarn run build",
-    "deploy": "gh-pages -d example/build"
+    "deploy": "gh-pages -d example/build",
+    "publish": "npm publish --access=public"
   },
   "peerDependencies": {
     "prop-types": "^15.5.4",
