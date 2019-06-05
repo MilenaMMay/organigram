@@ -3,11 +3,11 @@
 exports[`Organigram renders views 1`] = `
 <div>
   <div
+    onClick={[Function]}
     style={
       Object {
         "border": "2px solid #000",
         "display": "inline-block",
-        "font-size": "2em",
         "margin": "2em",
         "padding": "1em",
       }
@@ -16,17 +16,353 @@ exports[`Organigram renders views 1`] = `
     View One
   </div>
   <div
+    onClick={[Function]}
     style={
       Object {
         "border": "2px solid #000",
         "display": "inline-block",
-        "font-size": "2em",
         "margin": "2em",
         "padding": "1em",
       }
     }
   >
     View Two
+  </div>
+  <div
+    style={
+      Object {
+        "border": "2px solid #000",
+        "display": "inline-block",
+        "margin": "2em",
+        "padding": "1em",
+      }
+    }
+  >
+    <h1
+      style={
+        Object {
+          "font-size": "1.5em",
+        }
+      }
+    >
+      View One
+    </h1>
+    <div>
+      <div
+        style={
+          Object {
+            "border": "2px solid #000",
+            "display": "inline-block",
+            "margin": "2em",
+            "padding": "1em",
+          }
+        }
+      >
+        <h1
+          style={
+            Object {
+              "font-size": "1.5em",
+            }
+          }
+        >
+          Small tree
+        </h1>
+        <div
+          style={
+            Object {
+              "border": "2px solid #000",
+              "display": "inline-block",
+              "margin": "2em",
+              "padding": "1em",
+            }
+          }
+        >
+          <h1
+            style={
+              Object {
+                "font-size": "1.5em",
+              }
+            }
+          >
+            Person
+             
+            One
+          </h1>
+          <h2
+            style={
+              Object {
+                "font-size": "1em",
+              }
+            }
+          >
+            no1
+          </h2>
+        </div>
+        <div>
+          <div
+            style={
+              Object {
+                "border": "2px solid #000",
+                "display": "inline-block",
+                "margin": "2em",
+                "padding": "1em",
+              }
+            }
+          >
+            <h1
+              style={
+                Object {
+                  "font-size": "1.5em",
+                }
+              }
+            >
+              Person
+               
+              Two
+            </h1>
+            <h2
+              style={
+                Object {
+                  "font-size": "1em",
+                }
+              }
+            >
+              no2
+            </h2>
+          </div>
+          <div
+            style={
+              Object {
+                "border": "2px solid #000",
+                "display": "inline-block",
+                "margin": "2em",
+                "padding": "1em",
+              }
+            }
+          >
+            <h1
+              style={
+                Object {
+                  "font-size": "1.5em",
+                }
+              }
+            >
+              Person
+               
+              Three
+            </h1>
+            <h2
+              style={
+                Object {
+                  "font-size": "1em",
+                }
+              }
+            >
+              no3
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "border": "2px solid #000",
+            "display": "inline-block",
+            "margin": "2em",
+            "padding": "1em",
+          }
+        }
+      >
+        <h1
+          style={
+            Object {
+              "font-size": "1.5em",
+            }
+          }
+        >
+          Big tree
+        </h1>
+        <div
+          style={
+            Object {
+              "border": "2px solid #000",
+              "display": "inline-block",
+              "margin": "2em",
+              "padding": "1em",
+            }
+          }
+        >
+          <h1
+            style={
+              Object {
+                "font-size": "1.5em",
+              }
+            }
+          >
+            Person
+             
+            Four
+          </h1>
+          <h2
+            style={
+              Object {
+                "font-size": "1em",
+              }
+            }
+          >
+            no4
+          </h2>
+        </div>
+        <div>
+          <div
+            style={
+              Object {
+                "border": "2px solid #000",
+                "display": "inline-block",
+                "margin": "2em",
+                "padding": "1em",
+              }
+            }
+          >
+            <h1
+              style={
+                Object {
+                  "font-size": "1.5em",
+                }
+              }
+            >
+              Small tree
+            </h1>
+            <div
+              style={
+                Object {
+                  "border": "2px solid #000",
+                  "display": "inline-block",
+                  "margin": "2em",
+                  "padding": "1em",
+                }
+              }
+            >
+              <h1
+                style={
+                  Object {
+                    "font-size": "1.5em",
+                  }
+                }
+              >
+                Person
+                 
+                One
+              </h1>
+              <h2
+                style={
+                  Object {
+                    "font-size": "1em",
+                  }
+                }
+              >
+                no1
+              </h2>
+            </div>
+            <div>
+              <div
+                style={
+                  Object {
+                    "border": "2px solid #000",
+                    "display": "inline-block",
+                    "margin": "2em",
+                    "padding": "1em",
+                  }
+                }
+              >
+                <h1
+                  style={
+                    Object {
+                      "font-size": "1.5em",
+                    }
+                  }
+                >
+                  Person
+                   
+                  Two
+                </h1>
+                <h2
+                  style={
+                    Object {
+                      "font-size": "1em",
+                    }
+                  }
+                >
+                  no2
+                </h2>
+              </div>
+              <div
+                style={
+                  Object {
+                    "border": "2px solid #000",
+                    "display": "inline-block",
+                    "margin": "2em",
+                    "padding": "1em",
+                  }
+                }
+              >
+                <h1
+                  style={
+                    Object {
+                      "font-size": "1.5em",
+                    }
+                  }
+                >
+                  Person
+                   
+                  Three
+                </h1>
+                <h2
+                  style={
+                    Object {
+                      "font-size": "1em",
+                    }
+                  }
+                >
+                  no3
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "border": "2px solid #000",
+                "display": "inline-block",
+                "margin": "2em",
+                "padding": "1em",
+              }
+            }
+          >
+            <h1
+              style={
+                Object {
+                  "font-size": "1.5em",
+                }
+              }
+            >
+              Person
+               
+              Five
+            </h1>
+            <h2
+              style={
+                Object {
+                  "font-size": "1em",
+                }
+              }
+            >
+              no5
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;
