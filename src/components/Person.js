@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
-import { container, heading, subline } from './Person.styles'
+import { container, heading, subline } from '../styles'
 
 export default class Person extends Component {
   static propTypes = {

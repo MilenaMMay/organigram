@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 import Tree from './Tree';
 
-import { container, heading, subline } from './View.styles'
+import { container, heading, subline } from '../styles'
 
 export default class View extends Component {
   static propTypes = {

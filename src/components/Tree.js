@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 import Person from './Person';
 
-import { container, heading, subline } from './Tree.styles'
+import { container, heading, subline } from '../styles'
 
 export default class Tree extends Component {
   static propTypes = {

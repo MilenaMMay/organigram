@@ -5,9 +5,9 @@
   "author": "MilenaMMay",
   "license": "MIT",
   "repository": "MilenaMMay/organigram",
-  "main": "dist/Organigram.js",
-  "module": "dist/Organigram.es.js",
-  "jsnext:main": "dist/Organigram.es.js",
+  "main": "dist/components/Organigram.js",
+  "module": "dist/components/Organigram.es.js",
+  "jsnext:main": "dist/components/Organigram.es.js",
   "engines": {
     "node": ">=8",
     "npm": ">=5"

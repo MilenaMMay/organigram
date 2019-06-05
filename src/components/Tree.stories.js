@@ -5,7 +5,7 @@ import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 
 import Tree from './Tree';
-import { smalltree, bigtree } from './testdata';
+import { smalltree, bigtree } from '../testdata';
 
 storiesOf('Tree', module)
   .add('Small Tree', () => (

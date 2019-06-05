@@ -1,11 +1,11 @@
 import React from 'react';
-import Organigram from './Organigram'
+import Person from './Person'
 import renderer from 'react-test-renderer';
-import { data } from './testdata';
+import { person1 } from '../testdata';
 
-test('Organigram renders views', () => {
+test('Person renders views', () => {
   const component = renderer.create(
-    <Organigram data={data}></Organigram>,
+    <Person person={person1}></Person>,
   );
   let tree = component.toJSON();
   expect(tree).toMatchSnapshot();
