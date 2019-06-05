@@ -1,27 +1,31 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import View from './View';
 
 import { container } from '../styles'
 
 export default class Organigram extends Component {
   static propTypes = {
-    text: PropTypes.string,
     data: PropTypes.object,
   }
 
-  render() {
-    const {
-      text,
-      data,
-    } = this.props
+  constructor(props) {
+    super(props);
+    this.state = {
+      data: props.data,
+      selectedView: props.data.views[0]
+    }
+  }
 
+  render() {
     return (
       <div>
-        {data.views.map((view) =>
-          <div style={container} key={view.name}>
+        {this.state.data.views.map((view) =>
+          <div style={container} key={view.name} onClick={() => this.setState({selectedView: view})}>
             {view.name}
           </div>
           )}
+          { this.state.selectedView ? <View view={this.state.selectedView}></View> : null }
       </div>
     )
   }
