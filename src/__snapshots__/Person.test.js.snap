@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Person renders views 1`] = `
+<div
+  style={
+    Object {
+      "border": "2px solid #000",
+      "display": "inline-block",
+      "margin": "2em",
+      "padding": "1em",
+    }
+  }
+>
+  <h1
+    style={
+      Object {
+        "font-size": "1.5em",
+      }
+    }
+  >
+    Foo
+     
+    Bar
+  </h1>
+  <h2
+    style={
+      Object {
+        "font-size": "1em",
+      }
+    }
+  >
+    foobar
+  </h2>
+</div>
+`;

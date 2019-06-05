@@ -3,12 +3,28 @@
 exports[`Organigram renders views 1`] = `
 <div>
   <div
-    className={undefined}
+    style={
+      Object {
+        "border": "2px solid #000",
+        "display": "inline-block",
+        "font-size": "2em",
+        "margin": "2em",
+        "padding": "1em",
+      }
+    }
   >
     Foo
   </div>
   <div
-    className={undefined}
+    style={
+      Object {
+        "border": "2px solid #000",
+        "display": "inline-block",
+        "font-size": "2em",
+        "margin": "2em",
+        "padding": "1em",
+      }
+    }
   >
     Bar
   </div>
