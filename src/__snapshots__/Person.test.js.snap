@@ -18,9 +18,9 @@ exports[`Person renders views 1`] = `
       }
     }
   >
-    Foo
+    Person
      
-    Bar
+    One
   </h1>
   <h2
     style={
@@ -29,7 +29,7 @@ exports[`Person renders views 1`] = `
       }
     }
   >
-    foobar
+    no1
   </h2>
 </div>
 `;

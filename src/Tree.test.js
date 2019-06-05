@@ -1,7 +1,7 @@
 import React from 'react'
 import Tree from './Tree'
 import renderer from 'react-test-renderer'
-import { bigtree } from './Tree.testdata'
+import { bigtree } from './testdata'
 
 test('Tree renders views', () => {
   const component = renderer.create(

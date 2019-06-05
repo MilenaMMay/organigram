@@ -6,3 +6,8 @@ export const person5 = { firstname: 'Person' , lastname: 'Five', role: 'no5' }
 
 export const smalltree = { name: 'Small tree' , parent: person1, children: [ person2, person3 ] }
 export const bigtree = { name: 'Big tree' , parent: person4, children: [ smalltree, person5 ] }
+
+export const view1 = { name: 'View One' , trees: [ smalltree, bigtree ] }
+export const view2 = { name: 'View Two' , trees: [ bigtree ] }
+
+export const data = { views: [ view1, view2 ] }

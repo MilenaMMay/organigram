@@ -5,12 +5,12 @@ import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 
 import View from './View';
-import { view } from './View.testdata';
+import { view1 } from './testdata';
 
 storiesOf('View', module)
   .add('exists', () => (
     <View
-      view={view}
+      view={view1}
     >
     </View>
   ));
