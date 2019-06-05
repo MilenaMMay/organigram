@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
-import styles from './styles.css'
+import organigramStyles from './Organigram.styles'
 
 export default class Organigram extends Component {
   static propTypes = {
@@ -18,7 +18,7 @@ export default class Organigram extends Component {
     return (
       <div>
         {data.views.map((view) =>
-          <div className={styles.test} key={view.name}>
+          <div style={organigramStyles} key={view.name}>
             {view.name}
           </div>
           )}
