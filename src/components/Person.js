@@ -20,7 +20,7 @@ export default class Person extends Component {
           <Typography variant="h5">
             {person.firstname} {person.lastname}
           </Typography>
-          <Typography component="p" color="textSecondary" >
+          <Typography component="p" color="textSecondary">
             {person.role}
           </Typography>
         </CardContent>

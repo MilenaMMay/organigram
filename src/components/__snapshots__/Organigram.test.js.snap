@@ -55,7 +55,7 @@ exports[`Organigram renders views 1`] = `
               </span>
             </span>
             <span
-              className="MuiTouchRipple-root-93"
+              className="MuiTouchRipple-root-220"
             />
           </button>
           <button
@@ -92,7 +92,7 @@ exports[`Organigram renders views 1`] = `
               </span>
             </span>
             <span
-              className="MuiTouchRipple-root-93"
+              className="MuiTouchRipple-root-220"
             />
           </button>
         </div>
@@ -108,248 +108,459 @@ exports[`Organigram renders views 1`] = `
       </div>
     </div>
   </div>
-  <div
-    style={
-      Object {
-        "border": "2px solid #000",
-        "display": "inline-block",
-        "margin": "2em",
-        "padding": "1em",
-      }
-    }
-  >
-    <h1
-      style={
-        Object {
-          "font-size": "1.5em",
-        }
-      }
+  <div>
+    <div
+      className="MuiPaper-root-32 MuiPaper-elevation1-35 MuiPaper-rounded-33 MuiExpansionPanel-root-28 MuiExpansionPanel-rounded-29"
     >
-      View One
-    </h1>
-    <div>
       <div
+        aria-expanded={false}
+        className="MuiButtonBase-root-22 MuiExpansionPanelSummary-root-59"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="button"
+        tabIndex="0"
+      >
+        <div
+          className="MuiExpansionPanelSummary-content-63"
+        >
+          <h4
+            className="MuiTypography-root-65 MuiTypography-h4-80 MuiTypography-colorTextSecondary-98"
+          >
+            Small tree
+          </h4>
+        </div>
+        <div
+          aria-hidden="true"
+          className="MuiButtonBase-root-22 MuiIconButton-root-101 MuiExpansionPanelSummary-expandIcon-64"
+          onBlur={[Function]}
+          onContextMenu={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={-1}
+        >
+          <span
+            className="MuiIconButton-label-106"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root-107"
+              color={undefined}
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+            </svg>
+          </span>
+          <span
+            className="MuiTouchRipple-root-220"
+          />
+        </div>
+      </div>
+      <div
+        aria-hidden="true"
+        className="MuiCollapse-container-116"
         style={
           Object {
-            "border": "2px solid #000",
-            "display": "inline-block",
-            "margin": "2em",
-            "padding": "1em",
+            "minHeight": "0px",
           }
         }
       >
-        <h1
-          style={
-            Object {
-              "font-size": "1.5em",
-            }
-          }
-        >
-          Small tree
-        </h1>
         <div
-          className="MuiPaper-root-29 MuiPaper-elevation1-32 MuiPaper-rounded-30 MuiCard-root-28"
+          className="MuiCollapse-wrapper-118"
         >
           <div
-            className="MuiCardContent-root-56"
-          >
-            <h5
-              className="MuiTypography-root-57 MuiTypography-h5-73"
-            >
-              Person
-               
-              One
-            </h5>
-            <p
-              className="MuiTypography-root-57 MuiTypography-body1-66 MuiTypography-colorTextSecondary-90"
-            >
-              no1
-            </p>
-          </div>
-        </div>
-        <div>
-          <div
-            className="MuiPaper-root-29 MuiPaper-elevation1-32 MuiPaper-rounded-30 MuiCard-root-28"
+            className="MuiCollapse-wrapperInner-119"
           >
             <div
-              className="MuiCardContent-root-56"
+              className="MuiExpansionPanelDetails-root-120"
             >
-              <h5
-                className="MuiTypography-root-57 MuiTypography-h5-73"
+              <div
+                className="MuiPaper-root-32 MuiPaper-elevation1-35 MuiPaper-rounded-33 MuiCard-root-121"
               >
-                Person
-                 
-                Two
-              </h5>
-              <p
-                className="MuiTypography-root-57 MuiTypography-body1-66 MuiTypography-colorTextSecondary-90"
+                <div
+                  className="MuiCardContent-root-122"
+                >
+                  <h5
+                    className="MuiTypography-root-65 MuiTypography-h5-81"
+                  >
+                    Person
+                     
+                    One
+                  </h5>
+                  <p
+                    className="MuiTypography-root-65 MuiTypography-body1-74 MuiTypography-colorTextSecondary-98"
+                  >
+                    no1
+                  </p>
+                </div>
+              </div>
+              <div
+                className="MuiGrid-container-123 MuiGrid-align-items-xs-center-131 MuiGrid-justify-xs-space-evenly-144"
               >
-                no2
-              </p>
-            </div>
-          </div>
-          <div
-            className="MuiPaper-root-29 MuiPaper-elevation1-32 MuiPaper-rounded-30 MuiCard-root-28"
-          >
-            <div
-              className="MuiCardContent-root-56"
-            >
-              <h5
-                className="MuiTypography-root-57 MuiTypography-h5-73"
-              >
-                Person
-                 
-                Three
-              </h5>
-              <p
-                className="MuiTypography-root-57 MuiTypography-body1-66 MuiTypography-colorTextSecondary-90"
-              >
-                no3
-              </p>
+                <div
+                  className="MuiPaper-root-32 MuiPaper-elevation1-35 MuiPaper-rounded-33 MuiCard-root-121"
+                >
+                  <div
+                    className="MuiCardContent-root-122"
+                  >
+                    <h5
+                      className="MuiTypography-root-65 MuiTypography-h5-81"
+                    >
+                      Person
+                       
+                      Two
+                    </h5>
+                    <p
+                      className="MuiTypography-root-65 MuiTypography-body1-74 MuiTypography-colorTextSecondary-98"
+                    >
+                      no2
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className="MuiPaper-root-32 MuiPaper-elevation1-35 MuiPaper-rounded-33 MuiCard-root-121"
+                >
+                  <div
+                    className="MuiCardContent-root-122"
+                  >
+                    <h5
+                      className="MuiTypography-root-65 MuiTypography-h5-81"
+                    >
+                      Person
+                       
+                      Three
+                    </h5>
+                    <p
+                      className="MuiTypography-root-65 MuiTypography-body1-74 MuiTypography-colorTextSecondary-98"
+                    >
+                      no3
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+    <div
+      className="MuiPaper-root-32 MuiPaper-elevation1-35 MuiPaper-rounded-33 MuiExpansionPanel-root-28 MuiExpansionPanel-rounded-29"
+    >
       <div
+        aria-expanded={false}
+        className="MuiButtonBase-root-22 MuiExpansionPanelSummary-root-59"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="button"
+        tabIndex="0"
+      >
+        <div
+          className="MuiExpansionPanelSummary-content-63"
+        >
+          <h4
+            className="MuiTypography-root-65 MuiTypography-h4-80 MuiTypography-colorTextSecondary-98"
+          >
+            Big tree
+          </h4>
+        </div>
+        <div
+          aria-hidden="true"
+          className="MuiButtonBase-root-22 MuiIconButton-root-101 MuiExpansionPanelSummary-expandIcon-64"
+          onBlur={[Function]}
+          onContextMenu={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={-1}
+        >
+          <span
+            className="MuiIconButton-label-106"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root-107"
+              color={undefined}
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+            </svg>
+          </span>
+          <span
+            className="MuiTouchRipple-root-220"
+          />
+        </div>
+      </div>
+      <div
+        aria-hidden="true"
+        className="MuiCollapse-container-116"
         style={
           Object {
-            "border": "2px solid #000",
-            "display": "inline-block",
-            "margin": "2em",
-            "padding": "1em",
+            "minHeight": "0px",
           }
         }
       >
-        <h1
-          style={
-            Object {
-              "font-size": "1.5em",
-            }
-          }
-        >
-          Big tree
-        </h1>
         <div
-          className="MuiPaper-root-29 MuiPaper-elevation1-32 MuiPaper-rounded-30 MuiCard-root-28"
+          className="MuiCollapse-wrapper-118"
         >
           <div
-            className="MuiCardContent-root-56"
+            className="MuiCollapse-wrapperInner-119"
           >
-            <h5
-              className="MuiTypography-root-57 MuiTypography-h5-73"
-            >
-              Person
-               
-              Four
-            </h5>
-            <p
-              className="MuiTypography-root-57 MuiTypography-body1-66 MuiTypography-colorTextSecondary-90"
-            >
-              no4
-            </p>
-          </div>
-        </div>
-        <div>
-          <div
-            style={
-              Object {
-                "border": "2px solid #000",
-                "display": "inline-block",
-                "margin": "2em",
-                "padding": "1em",
-              }
-            }
-          >
-            <h1
-              style={
-                Object {
-                  "font-size": "1.5em",
-                }
-              }
-            >
-              Small tree
-            </h1>
             <div
-              className="MuiPaper-root-29 MuiPaper-elevation1-32 MuiPaper-rounded-30 MuiCard-root-28"
+              className="MuiExpansionPanelDetails-root-120"
             >
               <div
-                className="MuiCardContent-root-56"
-              >
-                <h5
-                  className="MuiTypography-root-57 MuiTypography-h5-73"
-                >
-                  Person
-                   
-                  One
-                </h5>
-                <p
-                  className="MuiTypography-root-57 MuiTypography-body1-66 MuiTypography-colorTextSecondary-90"
-                >
-                  no1
-                </p>
-              </div>
-            </div>
-            <div>
-              <div
-                className="MuiPaper-root-29 MuiPaper-elevation1-32 MuiPaper-rounded-30 MuiCard-root-28"
+                className="MuiPaper-root-32 MuiPaper-elevation1-35 MuiPaper-rounded-33 MuiCard-root-121"
               >
                 <div
-                  className="MuiCardContent-root-56"
+                  className="MuiCardContent-root-122"
                 >
                   <h5
-                    className="MuiTypography-root-57 MuiTypography-h5-73"
+                    className="MuiTypography-root-65 MuiTypography-h5-81"
                   >
                     Person
                      
-                    Two
+                    Four
                   </h5>
                   <p
-                    className="MuiTypography-root-57 MuiTypography-body1-66 MuiTypography-colorTextSecondary-90"
+                    className="MuiTypography-root-65 MuiTypography-body1-74 MuiTypography-colorTextSecondary-98"
                   >
-                    no2
+                    no4
                   </p>
                 </div>
               </div>
               <div
-                className="MuiPaper-root-29 MuiPaper-elevation1-32 MuiPaper-rounded-30 MuiCard-root-28"
+                className="MuiGrid-container-123 MuiGrid-align-items-xs-center-131 MuiGrid-justify-xs-space-evenly-144"
               >
                 <div
-                  className="MuiCardContent-root-56"
+                  className="MuiPaper-root-32 MuiPaper-elevation1-35 MuiPaper-rounded-33 MuiExpansionPanel-root-28 MuiExpansionPanel-rounded-29"
                 >
-                  <h5
-                    className="MuiTypography-root-57 MuiTypography-h5-73"
+                  <div
+                    aria-expanded={false}
+                    className="MuiButtonBase-root-22 MuiExpansionPanelSummary-root-59"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onContextMenu={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    role="button"
+                    tabIndex="0"
                   >
-                    Person
-                     
-                    Three
-                  </h5>
-                  <p
-                    className="MuiTypography-root-57 MuiTypography-body1-66 MuiTypography-colorTextSecondary-90"
+                    <div
+                      className="MuiExpansionPanelSummary-content-63"
+                    >
+                      <h4
+                        className="MuiTypography-root-65 MuiTypography-h4-80 MuiTypography-colorTextSecondary-98"
+                      >
+                        Small tree
+                      </h4>
+                    </div>
+                    <div
+                      aria-hidden="true"
+                      className="MuiButtonBase-root-22 MuiIconButton-root-101 MuiExpansionPanelSummary-expandIcon-64"
+                      onBlur={[Function]}
+                      onContextMenu={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      role="button"
+                      tabIndex={-1}
+                    >
+                      <span
+                        className="MuiIconButton-label-106"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          className="MuiSvgIcon-root-107"
+                          color={undefined}
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                          />
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                        </svg>
+                      </span>
+                      <span
+                        className="MuiTouchRipple-root-220"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    aria-hidden="true"
+                    className="MuiCollapse-container-116"
+                    style={
+                      Object {
+                        "minHeight": "0px",
+                      }
+                    }
                   >
-                    no3
-                  </p>
+                    <div
+                      className="MuiCollapse-wrapper-118"
+                    >
+                      <div
+                        className="MuiCollapse-wrapperInner-119"
+                      >
+                        <div
+                          className="MuiExpansionPanelDetails-root-120"
+                        >
+                          <div
+                            className="MuiPaper-root-32 MuiPaper-elevation1-35 MuiPaper-rounded-33 MuiCard-root-121"
+                          >
+                            <div
+                              className="MuiCardContent-root-122"
+                            >
+                              <h5
+                                className="MuiTypography-root-65 MuiTypography-h5-81"
+                              >
+                                Person
+                                 
+                                One
+                              </h5>
+                              <p
+                                className="MuiTypography-root-65 MuiTypography-body1-74 MuiTypography-colorTextSecondary-98"
+                              >
+                                no1
+                              </p>
+                            </div>
+                          </div>
+                          <div
+                            className="MuiGrid-container-123 MuiGrid-align-items-xs-center-131 MuiGrid-justify-xs-space-evenly-144"
+                          >
+                            <div
+                              className="MuiPaper-root-32 MuiPaper-elevation1-35 MuiPaper-rounded-33 MuiCard-root-121"
+                            >
+                              <div
+                                className="MuiCardContent-root-122"
+                              >
+                                <h5
+                                  className="MuiTypography-root-65 MuiTypography-h5-81"
+                                >
+                                  Person
+                                   
+                                  Two
+                                </h5>
+                                <p
+                                  className="MuiTypography-root-65 MuiTypography-body1-74 MuiTypography-colorTextSecondary-98"
+                                >
+                                  no2
+                                </p>
+                              </div>
+                            </div>
+                            <div
+                              className="MuiPaper-root-32 MuiPaper-elevation1-35 MuiPaper-rounded-33 MuiCard-root-121"
+                            >
+                              <div
+                                className="MuiCardContent-root-122"
+                              >
+                                <h5
+                                  className="MuiTypography-root-65 MuiTypography-h5-81"
+                                >
+                                  Person
+                                   
+                                  Three
+                                </h5>
+                                <p
+                                  className="MuiTypography-root-65 MuiTypography-body1-74 MuiTypography-colorTextSecondary-98"
+                                >
+                                  no3
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="MuiPaper-root-32 MuiPaper-elevation1-35 MuiPaper-rounded-33 MuiCard-root-121"
+                >
+                  <div
+                    className="MuiCardContent-root-122"
+                  >
+                    <h5
+                      className="MuiTypography-root-65 MuiTypography-h5-81"
+                    >
+                      Person
+                       
+                      Five
+                    </h5>
+                    <p
+                      className="MuiTypography-root-65 MuiTypography-body1-74 MuiTypography-colorTextSecondary-98"
+                    >
+                      no5
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div
-            className="MuiPaper-root-29 MuiPaper-elevation1-32 MuiPaper-rounded-30 MuiCard-root-28"
-          >
-            <div
-              className="MuiCardContent-root-56"
-            >
-              <h5
-                className="MuiTypography-root-57 MuiTypography-h5-73"
-              >
-                Person
-                 
-                Five
-              </h5>
-              <p
-                className="MuiTypography-root-57 MuiTypography-body1-66 MuiTypography-colorTextSecondary-90"
-              >
-                no5
-              </p>
             </div>
           </div>
         </div>
