@@ -67,5 +67,7 @@
   "files": [
     "dist"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "@material-ui/core": "3"
+  }
 }
