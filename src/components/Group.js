@@ -8,22 +8,22 @@ import Typography from '@material-ui/core/Typography'
 import Grid from '@material-ui/core/Grid'
 
 import Person from './Person';
-import Group from './Group';
+import Tree from './Tree';
 
-export default class Tree extends Component {
+export default class Group extends Component {
   static propTypes = {
-    tree: PropTypes.object,
+    group: PropTypes.object,
   }
 
   render() {
     const {
-      tree,
+      group,
     } = this.props
 
     return (
       <ExpansionPanel>
         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography variant="h4" color="textSecondary">{tree.name}</Typography>
+          <Typography variant="h4" color="textSecondary">{group.groupname}</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Grid
@@ -33,21 +33,14 @@ export default class Tree extends Component {
             alignItems="center"
             spacing={24}
           >
-            <Grid item xs={12}>
-              {tree.parent.firstname ?
-                <Person person={tree.parent}></Person>
+            {group.members.map((member) => {
+              return member.firstname ?
+                <Grid item xs={4}><Person person={member}></Person></Grid>
                 :
-                <Group group={tree.parent}/>
-              }
-            </Grid>
-            {tree.children.map((child) => {
-              return child.firstname ?
-                <Grid item xs={4}><Person person={child}></Person></Grid>
-                :
-                (child.name ?
-                  <Grid item xs={6}><Tree tree={child}/></Grid>
+                (member.firstname ?
+                  <Grid item xs={6}><Tree tree={member}/></Grid>
                   :
-                  <Grid item xs={6}><Group group={child}/></Grid>
+                  <Grid item xs={6}><Group group={member}/></Grid>
                 )
             })}
           </Grid>

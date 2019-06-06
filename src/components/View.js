@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Grid from '@material-ui/core/Grid'
 
 import Tree from './Tree';
+import Group from './Group';
 
 export default class View extends Component {
   static propTypes = {
@@ -22,7 +23,10 @@ export default class View extends Component {
         alignItems="center"
         spacing={24}
       >{view.trees.map((tree) => {
-        return <Grid item xs={6}><Tree tree={tree}/></Grid>
+        return tree.name ?
+          <Grid item xs={6}><Tree tree={tree}/></Grid>
+          :
+          <Grid item xs={6}><Group group={tree}/></Grid>
       })}</Grid>
     )
   }
