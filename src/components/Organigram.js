@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import View from './View';
-
-import { container } from '../styles'
+import Tabs from '@material-ui/core/Tabs'
+import Tab from '@material-ui/core/Tab'
+import View from './View'
 
 export default class Organigram extends Component {
   static propTypes = {
@@ -20,12 +20,23 @@ export default class Organigram extends Component {
   render() {
     return (
       <div>
-        {this.state.data.views.map((view) =>
-          <div style={container} key={view.name} onClick={() => this.setState({selectedView: view})}>
-            {view.name}
-          </div>
+        <Tabs
+          value={this.state.selectedView.name}
+          onChange={this.handleChange}
+          indicatorColor="primary"
+          textColor="primary"
+          centered
+        >
+          {this.state.data.views.map((view) =>
+            <Tab
+              label={view.name}
+              value={view.name}
+              key={view.name}
+              onClick={() => this.setState({selectedView: view})}
+            />
           )}
-          { this.state.selectedView ? <View view={this.state.selectedView}></View> : null }
+        </Tabs>
+        { this.state.selectedView ? <View view={this.state.selectedView}></View> : null }
       </div>
     )
   }
