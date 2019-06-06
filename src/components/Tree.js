@@ -25,15 +25,18 @@ export default class Tree extends Component {
           <Typography variant="h4" color="textSecondary">{tree.name}</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <Person person={tree.parent}></Person>
           <Grid
             container
             direction="row"
             justify="space-evenly"
             alignItems="center"
+            spacing={24}
           >
+            <Grid item xs={12}>
+              <Person person={tree.parent}></Person>
+            </Grid>
             {tree.children.map((child) => {
-              return child.firstname ? <Person person={child}></Person> : <Tree tree={child}></Tree>
+              return child.firstname ? <Grid item xs={4}><Person person={child}></Person></Grid> : <Grid item xs={6}><Tree tree={child}/></Grid>
             })}
           </Grid>
         </ExpansionPanelDetails>

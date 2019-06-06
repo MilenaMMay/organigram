@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import Grid from '@material-ui/core/Grid'
 
 import Tree from './Tree';
 
@@ -14,9 +15,15 @@ export default class View extends Component {
     } = this.props
 
     return (
-      <div>{view.trees.map((tree) => {
-        return <Tree tree={tree}></Tree>
-      })}</div>
+      <Grid
+        container
+        direction="row"
+        justify="space-evenly"
+        alignItems="center"
+        spacing={24}
+      >{view.trees.map((tree) => {
+        return <Grid item xs={6}><Tree tree={tree}/></Grid>
+      })}</Grid>
     )
   }
 }
