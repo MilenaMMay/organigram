@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import Card from '@material-ui/core/Card'
 
 import { container, heading, subline } from '../styles'
 
