@@ -41,98 +41,65 @@ exports[`View renders views 1`] = `
         Small tree
       </h1>
       <div
-        style={
-          Object {
-            "border": "2px solid #000",
-            "display": "inline-block",
-            "margin": "2em",
-            "padding": "1em",
-          }
-        }
+        className="MuiPaper-root-2 MuiPaper-elevation1-5 MuiPaper-rounded-3 MuiCard-root-1"
       >
-        <h1
-          style={
-            Object {
-              "font-size": "1.5em",
-            }
-          }
+        <div
+          className="MuiCardContent-root-29"
         >
-          Person
-           
-          One
-        </h1>
-        <h2
-          style={
-            Object {
-              "font-size": "1em",
-            }
-          }
-        >
-          no1
-        </h2>
+          <h5
+            className="MuiTypography-root-30 MuiTypography-h5-46"
+          >
+            Person
+             
+            One
+          </h5>
+          <p
+            className="MuiTypography-root-30 MuiTypography-body1-39 MuiTypography-colorTextSecondary-63"
+          >
+            no1
+          </p>
+        </div>
       </div>
       <div>
         <div
-          style={
-            Object {
-              "border": "2px solid #000",
-              "display": "inline-block",
-              "margin": "2em",
-              "padding": "1em",
-            }
-          }
+          className="MuiPaper-root-2 MuiPaper-elevation1-5 MuiPaper-rounded-3 MuiCard-root-1"
         >
-          <h1
-            style={
-              Object {
-                "font-size": "1.5em",
-              }
-            }
+          <div
+            className="MuiCardContent-root-29"
           >
-            Person
-             
-            Two
-          </h1>
-          <h2
-            style={
-              Object {
-                "font-size": "1em",
-              }
-            }
-          >
-            no2
-          </h2>
+            <h5
+              className="MuiTypography-root-30 MuiTypography-h5-46"
+            >
+              Person
+               
+              Two
+            </h5>
+            <p
+              className="MuiTypography-root-30 MuiTypography-body1-39 MuiTypography-colorTextSecondary-63"
+            >
+              no2
+            </p>
+          </div>
         </div>
         <div
-          style={
-            Object {
-              "border": "2px solid #000",
-              "display": "inline-block",
-              "margin": "2em",
-              "padding": "1em",
-            }
-          }
+          className="MuiPaper-root-2 MuiPaper-elevation1-5 MuiPaper-rounded-3 MuiCard-root-1"
         >
-          <h1
-            style={
-              Object {
-                "font-size": "1.5em",
-              }
-            }
+          <div
+            className="MuiCardContent-root-29"
           >
-            Person
-             
-            Three
-          </h1>
-          <h2
-            style={
-              Object {
-                "font-size": "1em",
-              }
-            }
-          >
-            no3
-          </h2>
+            <h5
+              className="MuiTypography-root-30 MuiTypography-h5-46"
+            >
+              Person
+               
+              Three
+            </h5>
+            <p
+              className="MuiTypography-root-30 MuiTypography-body1-39 MuiTypography-colorTextSecondary-63"
+            >
+              no3
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -156,35 +123,24 @@ exports[`View renders views 1`] = `
         Big tree
       </h1>
       <div
-        style={
-          Object {
-            "border": "2px solid #000",
-            "display": "inline-block",
-            "margin": "2em",
-            "padding": "1em",
-          }
-        }
+        className="MuiPaper-root-2 MuiPaper-elevation1-5 MuiPaper-rounded-3 MuiCard-root-1"
       >
-        <h1
-          style={
-            Object {
-              "font-size": "1.5em",
-            }
-          }
+        <div
+          className="MuiCardContent-root-29"
         >
-          Person
-           
-          Four
-        </h1>
-        <h2
-          style={
-            Object {
-              "font-size": "1em",
-            }
-          }
-        >
-          no4
-        </h2>
+          <h5
+            className="MuiTypography-root-30 MuiTypography-h5-46"
+          >
+            Person
+             
+            Four
+          </h5>
+          <p
+            className="MuiTypography-root-30 MuiTypography-body1-39 MuiTypography-colorTextSecondary-63"
+          >
+            no4
+          </p>
+        </div>
       </div>
       <div>
         <div
@@ -207,131 +163,87 @@ exports[`View renders views 1`] = `
             Small tree
           </h1>
           <div
-            style={
-              Object {
-                "border": "2px solid #000",
-                "display": "inline-block",
-                "margin": "2em",
-                "padding": "1em",
-              }
-            }
+            className="MuiPaper-root-2 MuiPaper-elevation1-5 MuiPaper-rounded-3 MuiCard-root-1"
           >
-            <h1
-              style={
-                Object {
-                  "font-size": "1.5em",
-                }
-              }
+            <div
+              className="MuiCardContent-root-29"
             >
-              Person
-               
-              One
-            </h1>
-            <h2
-              style={
-                Object {
-                  "font-size": "1em",
-                }
-              }
-            >
-              no1
-            </h2>
+              <h5
+                className="MuiTypography-root-30 MuiTypography-h5-46"
+              >
+                Person
+                 
+                One
+              </h5>
+              <p
+                className="MuiTypography-root-30 MuiTypography-body1-39 MuiTypography-colorTextSecondary-63"
+              >
+                no1
+              </p>
+            </div>
           </div>
           <div>
             <div
-              style={
-                Object {
-                  "border": "2px solid #000",
-                  "display": "inline-block",
-                  "margin": "2em",
-                  "padding": "1em",
-                }
-              }
+              className="MuiPaper-root-2 MuiPaper-elevation1-5 MuiPaper-rounded-3 MuiCard-root-1"
             >
-              <h1
-                style={
-                  Object {
-                    "font-size": "1.5em",
-                  }
-                }
+              <div
+                className="MuiCardContent-root-29"
               >
-                Person
-                 
-                Two
-              </h1>
-              <h2
-                style={
-                  Object {
-                    "font-size": "1em",
-                  }
-                }
-              >
-                no2
-              </h2>
+                <h5
+                  className="MuiTypography-root-30 MuiTypography-h5-46"
+                >
+                  Person
+                   
+                  Two
+                </h5>
+                <p
+                  className="MuiTypography-root-30 MuiTypography-body1-39 MuiTypography-colorTextSecondary-63"
+                >
+                  no2
+                </p>
+              </div>
             </div>
             <div
-              style={
-                Object {
-                  "border": "2px solid #000",
-                  "display": "inline-block",
-                  "margin": "2em",
-                  "padding": "1em",
-                }
-              }
+              className="MuiPaper-root-2 MuiPaper-elevation1-5 MuiPaper-rounded-3 MuiCard-root-1"
             >
-              <h1
-                style={
-                  Object {
-                    "font-size": "1.5em",
-                  }
-                }
+              <div
+                className="MuiCardContent-root-29"
               >
-                Person
-                 
-                Three
-              </h1>
-              <h2
-                style={
-                  Object {
-                    "font-size": "1em",
-                  }
-                }
-              >
-                no3
-              </h2>
+                <h5
+                  className="MuiTypography-root-30 MuiTypography-h5-46"
+                >
+                  Person
+                   
+                  Three
+                </h5>
+                <p
+                  className="MuiTypography-root-30 MuiTypography-body1-39 MuiTypography-colorTextSecondary-63"
+                >
+                  no3
+                </p>
+              </div>
             </div>
           </div>
         </div>
         <div
-          style={
-            Object {
-              "border": "2px solid #000",
-              "display": "inline-block",
-              "margin": "2em",
-              "padding": "1em",
-            }
-          }
+          className="MuiPaper-root-2 MuiPaper-elevation1-5 MuiPaper-rounded-3 MuiCard-root-1"
         >
-          <h1
-            style={
-              Object {
-                "font-size": "1.5em",
-              }
-            }
+          <div
+            className="MuiCardContent-root-29"
           >
-            Person
-             
-            Five
-          </h1>
-          <h2
-            style={
-              Object {
-                "font-size": "1em",
-              }
-            }
-          >
-            no5
-          </h2>
+            <h5
+              className="MuiTypography-root-30 MuiTypography-h5-46"
+            >
+              Person
+               
+              Five
+            </h5>
+            <p
+              className="MuiTypography-root-30 MuiTypography-body1-39 MuiTypography-colorTextSecondary-63"
+            >
+              no5
+            </p>
+          </div>
         </div>
       </div>
     </div>

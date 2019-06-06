@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import Card from '@material-ui/core/Card'
-
-import { container, heading, subline } from '../styles'
+import CardContent from '@material-ui/core/CardContent'
+import Typography from '@material-ui/core/Typography'
 
 export default class Person extends Component {
   static propTypes = {
@@ -15,10 +15,16 @@ export default class Person extends Component {
     } = this.props
 
     return (
-      <div style={container}>
-        <h1 style={heading}>{person.firstname} {person.lastname}</h1>
-        <h2 style={subline}>{person.role}</h2>
-      </div>
+      <Card>
+        <CardContent>
+          <Typography variant="h5">
+            {person.firstname} {person.lastname}
+          </Typography>
+          <Typography component="p" color="textSecondary" >
+            {person.role}
+          </Typography>
+        </CardContent>
+      </Card>
     )
   }
 }

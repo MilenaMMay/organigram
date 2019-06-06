@@ -55,7 +55,7 @@ exports[`Organigram renders views 1`] = `
               </span>
             </span>
             <span
-              className="MuiTouchRipple-root-28"
+              className="MuiTouchRipple-root-93"
             />
           </button>
           <button
@@ -92,7 +92,7 @@ exports[`Organigram renders views 1`] = `
               </span>
             </span>
             <span
-              className="MuiTouchRipple-root-28"
+              className="MuiTouchRipple-root-93"
             />
           </button>
         </div>
@@ -148,98 +148,65 @@ exports[`Organigram renders views 1`] = `
           Small tree
         </h1>
         <div
-          style={
-            Object {
-              "border": "2px solid #000",
-              "display": "inline-block",
-              "margin": "2em",
-              "padding": "1em",
-            }
-          }
+          className="MuiPaper-root-29 MuiPaper-elevation1-32 MuiPaper-rounded-30 MuiCard-root-28"
         >
-          <h1
-            style={
-              Object {
-                "font-size": "1.5em",
-              }
-            }
+          <div
+            className="MuiCardContent-root-56"
           >
-            Person
-             
-            One
-          </h1>
-          <h2
-            style={
-              Object {
-                "font-size": "1em",
-              }
-            }
-          >
-            no1
-          </h2>
+            <h5
+              className="MuiTypography-root-57 MuiTypography-h5-73"
+            >
+              Person
+               
+              One
+            </h5>
+            <p
+              className="MuiTypography-root-57 MuiTypography-body1-66 MuiTypography-colorTextSecondary-90"
+            >
+              no1
+            </p>
+          </div>
         </div>
         <div>
           <div
-            style={
-              Object {
-                "border": "2px solid #000",
-                "display": "inline-block",
-                "margin": "2em",
-                "padding": "1em",
-              }
-            }
+            className="MuiPaper-root-29 MuiPaper-elevation1-32 MuiPaper-rounded-30 MuiCard-root-28"
           >
-            <h1
-              style={
-                Object {
-                  "font-size": "1.5em",
-                }
-              }
+            <div
+              className="MuiCardContent-root-56"
             >
-              Person
-               
-              Two
-            </h1>
-            <h2
-              style={
-                Object {
-                  "font-size": "1em",
-                }
-              }
-            >
-              no2
-            </h2>
+              <h5
+                className="MuiTypography-root-57 MuiTypography-h5-73"
+              >
+                Person
+                 
+                Two
+              </h5>
+              <p
+                className="MuiTypography-root-57 MuiTypography-body1-66 MuiTypography-colorTextSecondary-90"
+              >
+                no2
+              </p>
+            </div>
           </div>
           <div
-            style={
-              Object {
-                "border": "2px solid #000",
-                "display": "inline-block",
-                "margin": "2em",
-                "padding": "1em",
-              }
-            }
+            className="MuiPaper-root-29 MuiPaper-elevation1-32 MuiPaper-rounded-30 MuiCard-root-28"
           >
-            <h1
-              style={
-                Object {
-                  "font-size": "1.5em",
-                }
-              }
+            <div
+              className="MuiCardContent-root-56"
             >
-              Person
-               
-              Three
-            </h1>
-            <h2
-              style={
-                Object {
-                  "font-size": "1em",
-                }
-              }
-            >
-              no3
-            </h2>
+              <h5
+                className="MuiTypography-root-57 MuiTypography-h5-73"
+              >
+                Person
+                 
+                Three
+              </h5>
+              <p
+                className="MuiTypography-root-57 MuiTypography-body1-66 MuiTypography-colorTextSecondary-90"
+              >
+                no3
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -263,35 +230,24 @@ exports[`Organigram renders views 1`] = `
           Big tree
         </h1>
         <div
-          style={
-            Object {
-              "border": "2px solid #000",
-              "display": "inline-block",
-              "margin": "2em",
-              "padding": "1em",
-            }
-          }
+          className="MuiPaper-root-29 MuiPaper-elevation1-32 MuiPaper-rounded-30 MuiCard-root-28"
         >
-          <h1
-            style={
-              Object {
-                "font-size": "1.5em",
-              }
-            }
+          <div
+            className="MuiCardContent-root-56"
           >
-            Person
-             
-            Four
-          </h1>
-          <h2
-            style={
-              Object {
-                "font-size": "1em",
-              }
-            }
-          >
-            no4
-          </h2>
+            <h5
+              className="MuiTypography-root-57 MuiTypography-h5-73"
+            >
+              Person
+               
+              Four
+            </h5>
+            <p
+              className="MuiTypography-root-57 MuiTypography-body1-66 MuiTypography-colorTextSecondary-90"
+            >
+              no4
+            </p>
+          </div>
         </div>
         <div>
           <div
@@ -314,131 +270,87 @@ exports[`Organigram renders views 1`] = `
               Small tree
             </h1>
             <div
-              style={
-                Object {
-                  "border": "2px solid #000",
-                  "display": "inline-block",
-                  "margin": "2em",
-                  "padding": "1em",
-                }
-              }
+              className="MuiPaper-root-29 MuiPaper-elevation1-32 MuiPaper-rounded-30 MuiCard-root-28"
             >
-              <h1
-                style={
-                  Object {
-                    "font-size": "1.5em",
-                  }
-                }
+              <div
+                className="MuiCardContent-root-56"
               >
-                Person
-                 
-                One
-              </h1>
-              <h2
-                style={
-                  Object {
-                    "font-size": "1em",
-                  }
-                }
-              >
-                no1
-              </h2>
+                <h5
+                  className="MuiTypography-root-57 MuiTypography-h5-73"
+                >
+                  Person
+                   
+                  One
+                </h5>
+                <p
+                  className="MuiTypography-root-57 MuiTypography-body1-66 MuiTypography-colorTextSecondary-90"
+                >
+                  no1
+                </p>
+              </div>
             </div>
             <div>
               <div
-                style={
-                  Object {
-                    "border": "2px solid #000",
-                    "display": "inline-block",
-                    "margin": "2em",
-                    "padding": "1em",
-                  }
-                }
+                className="MuiPaper-root-29 MuiPaper-elevation1-32 MuiPaper-rounded-30 MuiCard-root-28"
               >
-                <h1
-                  style={
-                    Object {
-                      "font-size": "1.5em",
-                    }
-                  }
+                <div
+                  className="MuiCardContent-root-56"
                 >
-                  Person
-                   
-                  Two
-                </h1>
-                <h2
-                  style={
-                    Object {
-                      "font-size": "1em",
-                    }
-                  }
-                >
-                  no2
-                </h2>
+                  <h5
+                    className="MuiTypography-root-57 MuiTypography-h5-73"
+                  >
+                    Person
+                     
+                    Two
+                  </h5>
+                  <p
+                    className="MuiTypography-root-57 MuiTypography-body1-66 MuiTypography-colorTextSecondary-90"
+                  >
+                    no2
+                  </p>
+                </div>
               </div>
               <div
-                style={
-                  Object {
-                    "border": "2px solid #000",
-                    "display": "inline-block",
-                    "margin": "2em",
-                    "padding": "1em",
-                  }
-                }
+                className="MuiPaper-root-29 MuiPaper-elevation1-32 MuiPaper-rounded-30 MuiCard-root-28"
               >
-                <h1
-                  style={
-                    Object {
-                      "font-size": "1.5em",
-                    }
-                  }
+                <div
+                  className="MuiCardContent-root-56"
                 >
-                  Person
-                   
-                  Three
-                </h1>
-                <h2
-                  style={
-                    Object {
-                      "font-size": "1em",
-                    }
-                  }
-                >
-                  no3
-                </h2>
+                  <h5
+                    className="MuiTypography-root-57 MuiTypography-h5-73"
+                  >
+                    Person
+                     
+                    Three
+                  </h5>
+                  <p
+                    className="MuiTypography-root-57 MuiTypography-body1-66 MuiTypography-colorTextSecondary-90"
+                  >
+                    no3
+                  </p>
+                </div>
               </div>
             </div>
           </div>
           <div
-            style={
-              Object {
-                "border": "2px solid #000",
-                "display": "inline-block",
-                "margin": "2em",
-                "padding": "1em",
-              }
-            }
+            className="MuiPaper-root-29 MuiPaper-elevation1-32 MuiPaper-rounded-30 MuiCard-root-28"
           >
-            <h1
-              style={
-                Object {
-                  "font-size": "1.5em",
-                }
-              }
+            <div
+              className="MuiCardContent-root-56"
             >
-              Person
-               
-              Five
-            </h1>
-            <h2
-              style={
-                Object {
-                  "font-size": "1em",
-                }
-              }
-            >
-              no5
-            </h2>
+              <h5
+                className="MuiTypography-root-57 MuiTypography-h5-73"
+              >
+                Person
+                 
+                Five
+              </h5>
+              <p
+                className="MuiTypography-root-57 MuiTypography-body1-66 MuiTypography-colorTextSecondary-90"
+              >
+                no5
+              </p>
+            </div>
           </div>
         </div>
       </div>
