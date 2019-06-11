@@ -45,9 +45,9 @@ export default class Tree extends Component {
                 <Grid item xs={4}><Person person={child}></Person></Grid>
                 :
                 (child.name ?
-                  <Grid item xs={6}><Tree tree={child}/></Grid>
+                  <Grid item xs={12}><Tree tree={child}/></Grid>
                   :
-                  <Grid item xs={6}><Group group={child}/></Grid>
+                  <Grid item xs={12}><Group group={child}/></Grid>
                 )
             })}
           </Grid>

@@ -38,9 +38,9 @@ export default class Group extends Component {
                 <Grid item xs={4}><Person person={member}></Person></Grid>
                 :
                 (member.name ?
-                  <Grid item xs={6}><Tree tree={member}/></Grid>
+                  <Grid item xs={24}><Tree tree={member}/></Grid>
                   :
-                  <Grid item xs={6}><Group group={member}/></Grid>
+                  <Grid item xs={24}><Group group={member}/></Grid>
                 )
             })}
           </Grid>

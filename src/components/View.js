@@ -24,9 +24,9 @@ export default class View extends Component {
         spacing={24}
       >{view.trees.map((tree) => {
         return tree.name ?
-          <Grid item xs={6}><Tree tree={tree}/></Grid>
+          <Grid item xs={24}><Tree tree={tree}/></Grid>
           :
-          <Grid item xs={6}><Group group={tree}/></Grid>
+          <Grid item xs={24}><Group group={tree}/></Grid>
       })}</Grid>
     )
   }
