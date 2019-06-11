@@ -5,10 +5,13 @@ export const person4 = { firstname: 'Person' , lastname: 'Four', role: 'no4' }
 export const person5 = { firstname: 'Person' , lastname: 'Five', role: 'no5' }
 export const person6 = { firstname: 'Person' , lastname: 'Six', role: 'no6' }
 
-export const group1 = { groupname: 'Group', members: [ person4, person6 ] }
+export const group1 = { groupname: 'Group 1', members: [ person4, person6 ] }
 
 export const smalltree = { name: 'Small tree' , parent: person1, children: [ person2, person3, group1 ] }
-export const bigtree = { name: 'Big tree' , parent: group1, children: [ smalltree, person5 ] }
+
+export const group2 = { groupname: 'Group 2', members: [ smalltree ] }
+
+export const bigtree = { name: 'Big tree' , parent: group2, children: [ smalltree, person5 ] }
 
 // TODO Rename trees because it may also contain groups
 export const view1 = { name: 'View One' , trees: [ smalltree, bigtree, group1 ] }

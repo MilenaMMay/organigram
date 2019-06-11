@@ -5,12 +5,18 @@ import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 
 import Group from './Group';
-import { group1 } from '../testdata';
+import { group1, group2 } from '../testdata';
 
 storiesOf('Group', module)
-  .add('exists', () => (
+  .add('simple group', () => (
     <Group
       group={group1}
+    >
+    </Group>
+  ))
+  .add('complex group', () => (
+    <Group
+      group={group2}
     >
     </Group>
   ));

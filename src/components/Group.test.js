@@ -5,7 +5,7 @@ import { group1 } from '../testdata'
 
 test('Group renders views', () => {
   const component = renderer.create(
-    <Group group={group1}></Group>,
+    <Group group={group2}></Group>,
   );
   let group = component.toJSON();
   expect(group).toMatchSnapshot();
